@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-p=-y7=z-_t7i+m-%lrrq^mj1yfpj08j-#*hw(uaa@*f$o9!&00
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh','login-meshinetest1.onrender.com']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh','login-meshinetest1.onrender.com','wazeer.pythonanywhere.com']
 
 ENCRYPT_KEY = "-WLfCkjZS2ms3kTFNQbOGsh2RpyNX2mhvgL8PYIx3vA="
 # Application definition
@@ -175,5 +175,5 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 STATIC_URL = "static/"
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
