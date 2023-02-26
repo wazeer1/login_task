@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-p=-y7=z-_t7i+m-%lrrq^mj1yfpj08j-#*hw(uaa@*f$o9!&00
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh','https://login-meshinetest1.onrender.com/']
 
 ENCRYPT_KEY = "-WLfCkjZS2ms3kTFNQbOGsh2RpyNX2mhvgL8PYIx3vA="
 # Application definition
@@ -55,6 +55,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     '.vercel.app', 
     '.now.sh',
+    'https://login-meshinetest1.onrender.com/',
 ]
 
 MIDDLEWARE = [
